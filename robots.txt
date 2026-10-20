@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://leeinterprise.github.io/cozy-winter-gifts/sitemap.xml

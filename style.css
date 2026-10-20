@@ -7,3 +7,6 @@ header{background:#3d5a80;color:#fff;padding:2.5rem 1rem;text-align:center}heade
 .cat{font-size:.75rem;text-transform:uppercase;color:#98c1d9;font-weight:700;letter-spacing:.05em}
 .btn{display:block;text-align:center;background:#ff9900;color:#111;font-weight:700;padding:.65rem;border-radius:8px;text-decoration:none}.btn:hover{background:#e68a00}
 footer{text-align:center;font-size:.85rem;color:#666;padding:2rem 1rem}
+.nav{display:flex;flex-wrap:wrap;justify-content:center;gap:.5rem 1.25rem;padding:.75rem 1rem;background:#293241}.nav a{color:#e0fbfc;text-decoration:none;font-weight:600;font-size:.95rem}.nav a:hover{text-decoration:underline}
+.guide{max-width:800px;margin:0 auto;padding:1rem}.guide h2{color:#3d5a80;margin-top:2rem}.pick{background:#fff;border-radius:12px;padding:1.25rem;margin:1rem 0;box-shadow:0 2px 8px #0001}.pick h3{margin:0 0 .4rem}.pick .btn{max-width:320px}
+.cmp{width:100%;border-collapse:collapse;background:#fff}.cmp th,.cmp td{border:1px solid #ddd;padding:.5rem;text-align:left;font-size:.95rem}.cmp th{background:#e0fbfc}
