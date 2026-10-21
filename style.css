@@ -51,3 +51,10 @@ header:not(.hero){background:linear-gradient(135deg,var(--plum),var(--ink))}
 /* v2 additions */
 .tablewrap{overflow-x:auto}.compare{width:100%;border-collapse:collapse;margin:1em 0}.compare th,.compare td{border:1px solid #ddd;padding:.6em;text-align:left;vertical-align:top}.compare th{background:#f3efe8}
 .bestfor{margin:.2em 0;font-size:.95em}.related ul{columns:2;padding-left:1.2em}.note{font-size:.9em;color:#666}details{margin:.5em 0}summary{cursor:pointer;font-weight:600}
+/* v3 layout fixes */
+.snow{z-index:0;pointer-events:none;opacity:.7}.hero-in{z-index:2}
+.hero{text-align:center}.hero h1,.hero .lede{margin-left:auto;margin-right:auto}.hero .cta-row{justify-content:center}
+.grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+.nav{padding:.5rem max(1rem,calc((100% - 1100px)/2 + 1rem));gap:.25rem 1rem}.nav a{font-size:1.05rem;padding:.6rem .25rem;min-height:44px;display:inline-flex;align-items:center}
+
+@media (min-width:900px){nav ul,nav .nav-links,.site-nav ul{flex-wrap:wrap;overflow-x:visible;gap:.25rem 1rem}nav a{font-size:.95rem}}
