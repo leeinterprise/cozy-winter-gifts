@@ -87,3 +87,8 @@ header:not(.hero){background:linear-gradient(135deg,var(--plum),var(--ink))}
 html,body{max-width:100%;overflow-x:clip}
 .hero{position:relative;overflow:hidden}
 @media(min-width:900px){.nav{flex-wrap:wrap;justify-content:center;overflow-x:visible;padding-left:1rem;padding-right:1rem}}
+
+.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:.5rem 0 0}.mini img{width:100%;aspect-ratio:4/3;height:auto;object-fit:cover;border-radius:10px;display:block}.illo-cap{font-size:.75rem;color:#8a7a6a;margin-top:.3rem;text-align:center}
+.mini2{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin:-.3rem -.3rem .6rem;border-radius:12px;overflow:hidden}.mini2 img{width:100%;aspect-ratio:1;height:auto;object-fit:cover;display:block;transition:transform .4s}.pcard:hover .mini2 img{transform:scale(1.04)}
+main .mini:has(img:nth-child(4)){grid-template-columns:repeat(4,1fr)}
+.tstrip{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin:0 0 .6rem}.tstrip img{width:100%;aspect-ratio:1;height:auto;object-fit:cover;border-radius:10px;display:block;border:2px solid #ffffff55}
