@@ -83,3 +83,7 @@ header:not(.hero){background:linear-gradient(135deg,var(--plum),var(--ink))}
 .tp-wrap{max-width:800px;margin:0 auto;padding:0 1rem}.tp-wrap .toppick{margin-top:1rem}
 @media(max-width:700px){.guide-hero img{max-height:180px;object-fit:cover;width:100%}}
 .guide.wide{max-width:1100px}.chips{display:flex;gap:.5rem;overflow-x:auto;padding:.25rem 0}.chips a{flex:none;display:inline-flex;align-items:center;min-height:44px;padding:0 1rem;border-radius:99px;background:#fff;box-shadow:0 2px 6px #0001;text-decoration:none;color:#3d5a80;font-weight:700}
+/* v4 layout fix: stop hero decorations widening the page; wrap+center nav on desktop */
+html,body{max-width:100%;overflow-x:clip}
+.hero{position:relative;overflow:hidden}
+@media(min-width:900px){.nav{flex-wrap:wrap;justify-content:center;overflow-x:visible;padding-left:1rem;padding-right:1rem}}
