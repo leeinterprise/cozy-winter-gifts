@@ -48,3 +48,6 @@ body{background:var(--cream)}
 .sticky{display:none}
 @media(max-width:700px){.sticky{display:block;position:fixed;left:1rem;right:1rem;bottom:1rem;z-index:10;text-align:center;padding:.95rem;border-radius:99px;background:var(--gold);color:#111;font-weight:800;text-decoration:none;box-shadow:0 8px 24px #0005}body{padding-bottom:5rem}}
 header:not(.hero){background:linear-gradient(135deg,var(--plum),var(--ink))}
+/* v2 additions */
+.tablewrap{overflow-x:auto}.compare{width:100%;border-collapse:collapse;margin:1em 0}.compare th,.compare td{border:1px solid #ddd;padding:.6em;text-align:left;vertical-align:top}.compare th{background:#f3efe8}
+.bestfor{margin:.2em 0;font-size:.95em}.related ul{columns:2;padding-left:1.2em}.note{font-size:.9em;color:#666}details{margin:.5em 0}summary{cursor:pointer;font-weight:600}
